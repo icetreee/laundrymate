@@ -172,30 +172,3 @@ Pull requests welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## License
 MIT - See [LICENSE](LICENSE)
 ```
-
----
-
-### Recommended Repository Structure:
-```
-/laundrymate
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── components
-│   │   ├── services
-│   │   └── sw.js (Service Worker)
-│   └── vite.config.js (PWA setup)
-├── backend
-│   ├── src
-│   │   ├── controllers
-│   │   ├── services
-│   │   └── workers
-│   └── serverless.yml
-├── docs
-│   ├── ARCHITECTURE.md
-│   └── DATA_MODELS.md
-├── .env.example
-├── package.json
-├── README.md
-└── LICENSE
-```
